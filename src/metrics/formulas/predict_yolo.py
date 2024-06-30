@@ -8,17 +8,17 @@ model = project.version(3).model
 class Object():
     def __init__(self, x, y, w, h, name):
         self.open = 100
-		self.xul = x - w//2
-		self.yul = y - h//2
-		self.xlr = x + w//2
-		self.ylr = y + h//2
-		self.name = name
-		self.xCenter = (self.xul+self.xlr)//2
-		self.yCenter = (self.yul+self.ylr)//2
-		self.xulopen = min(0,self.xul-self.open)
-		self.yulopen = min(0,self.yul-self.open)
-		self.xlropen = self.xlr+self.open
-		self.ylropen = self.ylr+self.open
+	self.xul = x - w//2
+	self.yul = y - h//2
+	self.xlr = x + w//2
+	self.ylr = y + h//2
+	self.name = name
+	self.xCenter = (self.xul+self.xlr)//2
+	self.yCenter = (self.yul+self.ylr)//2
+	self.xulopen = min(0,self.xul-self.open)
+	self.yulopen = min(0,self.yul-self.open)
+	self.xlropen = self.xlr+self.open
+	self.ylropen = self.ylr+self.open
 
 
 # Check whether (x,y) inside a rectangle (xul,yul,xlr,ylr)
