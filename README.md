@@ -15,6 +15,7 @@ The main objective of this project is to optimize Heineken's marketing efforts t
 * Analytics Enhancement: LLaVA's advanced analytics capabilities provide deeper insights into image data, enabling more informed marketing strategies.
 * Conversion Rate Optimization: By analyzing the effectiveness of various marketing images, the project helps identify the most impactful visuals, thereby improving conversion rates.
 * ROI Improvement: Through better data analysis and optimized marketing efforts, the project aims to maximize the return on investment for Heineken's marketing campaigns.
+
+# Contact
 You can load directly file *best.pt* as yolo weights to start objects detecting
-Contact
 For any questions or inquiries, please contact letrongducanh456@gmail.com.
